@@ -22,7 +22,7 @@ Coding Steps:
 
 
 ### Links
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live Site On GitHub Pages](https://your-live-site-url.com)
 
 ## My process
 I started by watching the video explanation of the task and I have tried implementing the same menu app as the instructor provided, but with my own twist. Provide a 
