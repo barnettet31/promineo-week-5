@@ -14,10 +14,10 @@ This is my homework for week 5 of the Promineo Front End Development Bootcamp.
 ## Overview
 The requirements for this application were as follows: 
 Coding Steps:
-•	Create a menu app as seen in this week’s video. What you create is up to you as long as it meets the following requirements:
-•	Use at least one array.
-•	Use at least two classes.
-•	Your menu should have the options to create, view, and delete elements.
+- Create a menu app as seen in this week’s video. What you create is up to you as long as it meets the following requirements:
+- Use at least one array.
+- Use at least two classes.
+- Your menu should have the options to create, view, and delete elements.
 
 
 
