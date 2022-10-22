@@ -22,7 +22,7 @@ Coding Steps:
 
 
 ### Links
-- Live Site URL: [Live Site On GitHub Pages](https://your-live-site-url.com)
+- Live Site URL: [Live Site On GitHub Pages](https://barnettet31.github.io/promineo-week-5/)
 
 ## My process
 I started by watching the video explanation of the task and I have tried implementing the same menu app as the instructor provided, but with my own twist. Provide a 
