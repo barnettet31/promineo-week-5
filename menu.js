@@ -74,9 +74,7 @@ class Menu {
         let selectedShop = prompt(`Whats the index of the shop that you would like to view? [0-${this.shops.length-1}]`);
         if(selectedShop > -1 && selectedShop < this.shops.length ){
             this.selectedShop = this.shops[selectedShop];
-            let shopDescription = `Shop Name: ${this.selectedShop.name}\n
-            Special Options: \n
-            ${this.selectedShop.specials.reduce((acc, next, index)=>acc + `${index}) ${next.name}: ${next.price}\n`,'')}`;
+            let shopDescription = `Shop Name: ${this.selectedShop.name}\nSpecial Options: \n${this.selectedShop.specials.reduce((acc, next, index)=>acc + `${index})${next.name}: ${next.price}\n`,'')}`;
             let selection = this.showShopMenuOptions(shopDescription);
             switch(selection){
                 case '1':
