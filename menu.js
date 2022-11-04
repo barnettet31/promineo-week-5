@@ -68,13 +68,15 @@ class Menu {
 
             specialItems.push(new Special(specialName, specialPrice));
         }
+        
         this.shops.push(new Shop(name, specialItems))
     }
     viewShop(){
         let selectedShop = prompt(`Whats the index of the shop that you would like to view? [0-${this.shops.length-1}]`);
         if(selectedShop > -1 && selectedShop < this.shops.length ){
             this.selectedShop = this.shops[selectedShop];
-            let shopDescription = `Shop Name: ${this.selectedShop.name}\nSpecial Options: \n${this.selectedShop.specials.reduce((acc, next, index)=>acc + `${index})${next.name}: ${next.price}\n`,'')}`;
+            let shopDescription = `Shop Name: ${this.selectedShop.name}\nSpecial Options: 
+            \n${this.selectedShop.specials.reduce((acc, next, index)=>acc + `${index})${next.name}: ${next.price}\n`,'')}`;
             let selection = this.showShopMenuOptions(shopDescription);
             switch(selection){
                 case '1':
@@ -104,8 +106,7 @@ class Menu {
         let index = prompt('Which special would you like to delete?');
         if(index > -1 && index <= this.selectedShop.specials.length){
             let specialToDelete = this.selectedShop.specials[index].name;
-            this.selectedShop.specials = this.selectedShop.specials.filter((element, index)=>element.name !== specialToDelete);
-            console.log(this.selectedShop.specials)
+            this.selectedShop.specials = this.selectedShop.specials.filter(({name})=>name !== specialToDelete);
         }
     }
     createSpecial(){
