@@ -32,8 +32,10 @@ We are implementing Classes in JS so I will be implementing those and working on
 Particularly Proud of this
 
 ```js
-//to be implemented 
+            let shopDescription = `Shop Name: ${this.selectedShop.name}\nSpecial Options: \n${this.selectedShop.specials.reduce((acc, next, index)=>acc + `${index})${next.name}: ${next.price}\n`,'')}`;
+
 ```
+I constructed the description of the shop by combining template literals with array.reduce() method and it was a lot of fun putting that together! 
 
 
 
